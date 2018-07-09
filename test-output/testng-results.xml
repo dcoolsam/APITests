@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4044" started-at="2018-07-09T19:46:57Z" finished-at="2018-07-09T19:47:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4044" started-at="2018-07-09T19:46:57Z" finished-at="2018-07-09T19:47:01Z">
+      <class name="com.hellofresh.apitest.ApiTest">
+        <test-method status="PASS" signature="initialSetup()[pri:0, instance:com.hellofresh.apitest.ApiTest@29774679]" name="initialSetup" is-config="true" duration-ms="354" started-at="2018-07-09T19:46:57Z" finished-at="2018-07-09T19:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method status="PASS" signature="getAllRequest()[pri:0, instance:com.hellofresh.apitest.ApiTest@29774679]" name="getAllRequest" duration-ms="1853" started-at="2018-07-09T19:46:58Z" description="Get all countries and validate that US, DE and GB were returned in the response" finished-at="2018-07-09T19:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllRequest -->
+        <test-method status="PASS" signature="getCountriesOneByOne()[pri:0, instance:com.hellofresh.apitest.ApiTest@29774679]" name="getCountriesOneByOne" duration-ms="704" started-at="2018-07-09T19:46:59Z" description="Get each country (US, DE and GB) individually andvalidate the response" finished-at="2018-07-09T19:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountriesOneByOne -->
+        <test-method status="PASS" signature="getNonExistentCountry()[pri:0, instance:com.hellofresh.apitest.ApiTest@29774679]" name="getNonExistentCountry" duration-ms="205" started-at="2018-07-09T19:47:00Z" description="Get information for inexistent countries &#039;ABC&#039; and validate the response" finished-at="2018-07-09T19:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNonExistentCountry -->
+        <test-method status="PASS" signature="postAdditionOfNewCountry()[pri:0, instance:com.hellofresh.apitest.ApiTest@29774679]" name="postAdditionOfNewCountry" duration-ms="910" started-at="2018-07-09T19:47:00Z" description="Validate new country addition using POST(" finished-at="2018-07-09T19:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAdditionOfNewCountry -->
+      </class> <!-- com.hellofresh.apitest.ApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
